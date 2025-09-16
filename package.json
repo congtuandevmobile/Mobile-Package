@@ -9,16 +9,24 @@
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
+    "concurrently": "9.2.1",
     "prettier": "^3.6.2",
     "turbo": "^2.5.6",
     "typescript": "5.9.2"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
-  "packageManager": "bun@1.2.22",
+  "packageManager": "bun@1.2.0",
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@babel/eslint-parser": "^7.28.4",
+    "semver": "^7.7.2"
+  },
+  "resolutions": {
+    "semver": "^7.6.3"
+  }
 }
