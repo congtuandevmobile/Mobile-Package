@@ -24,6 +24,8 @@
   ],
   "dependencies": {
     "@babel/eslint-parser": "^7.28.4",
+    "nitrogen": "^0.29.6",
+    "react-native-nitro-modules": "^0.29.6",
     "semver": "^7.7.2"
   },
   "resolutions": {
