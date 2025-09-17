@@ -2425,6 +2425,36 @@ PODS:
     - ReactCommon/turbomodule/core
     - SocketRocket
     - Yoga
+  - RNMath (0.1.0):
+    - boost
+    - DoubleConversion
+    - fast_float
+    - fmt
+    - glog
+    - hermes-engine
+    - NitroModules
+    - RCT-Folly
+    - RCT-Folly/Fabric
+    - RCTRequired
+    - RCTTypeSafety
+    - React-callinvoker
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - SocketRocket
+    - Yoga
   - RNReanimated (4.1.0):
     - boost
     - DoubleConversion
@@ -2756,6 +2786,7 @@ DEPENDENCIES:
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../../../node_modules/react-native/ReactCommon`)
   - RNGestureHandler (from `../../../node_modules/react-native-gesture-handler`)
+  - "RNMath (from `../../../node_modules/@tuannc2/react-native-math`)"
   - RNReanimated (from `../../../node_modules/react-native-reanimated`)
   - RNScreens (from `../../../node_modules/react-native-screens`)
   - RNWorklets (from `../../../node_modules/react-native-worklets`)
@@ -2917,6 +2948,8 @@ EXTERNAL SOURCES:
     :path: "../../../node_modules/react-native/ReactCommon"
   RNGestureHandler:
     :path: "../../../node_modules/react-native-gesture-handler"
+  RNMath:
+    :path: "../../../node_modules/@tuannc2/react-native-math"
   RNReanimated:
     :path: "../../../node_modules/react-native-reanimated"
   RNScreens:
@@ -3003,6 +3036,7 @@ SPEC CHECKSUMS:
   ReactCodegen: cf03d376a26d393f818d511240b026fc8c95313c
   ReactCommon: 00df7b9f859c9d02181844255bb89a8bca544374
   RNGestureHandler: 4f7cc97a71d4fe0fcba38c94acdd969f5f17c91c
+  RNMath: f8fd6a6a07316fb46b98a4a86d0d468bd2aa8d59
   RNReanimated: 0cb057fceda450a0eb6dff9b7dc10bdd9f59b24f
   RNScreens: 74985ca8e102294a60cec7513fa84c936fa0b20b
   RNWorklets: a4a057191f470b49f5d30f7995dd5408f40214f6

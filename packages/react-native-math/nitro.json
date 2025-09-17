@@ -1,0 +1,18 @@
+{
+  "cxxNamespace": ["rnmath"],
+  "ios": {
+    "iosModuleName": "RNMath"
+  },
+  "android": {
+    "androidNamespace": ["rnmath"],
+    "androidCxxLibName": "RNMath"
+  },
+  "autolinking": {
+    "RNMath": {
+      "swift": "HybridRNMath",
+      "kotlin": "HybridRNMath"
+    }
+  },
+  "ignorePaths": ["n**/node_modules"],
+  "gitAttributesGeneratedFlag": true
+}

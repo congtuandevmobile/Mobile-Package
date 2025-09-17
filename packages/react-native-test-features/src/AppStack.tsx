@@ -7,6 +7,7 @@ export function AppRoot() {
     <NavigationContainer>
       <RootStack.Navigator>
         <RootStack.Screen name="Home" component={Screens.HomeScreen} />
+        <RootStack.Screen name="RnMathTest" component={Screens.MathScreen} />
         {/* IGNITE_GENERATE_SCREEN_TEST */}
       </RootStack.Navigator>
     </NavigationContainer>

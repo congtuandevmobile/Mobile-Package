@@ -1,6 +1,5 @@
 {
   "$schema": "https://turborepo.com/schema.json",
-  "ui": "tui",
   "tasks": {
     "build": {
       "outputs": ["dist/**"],
@@ -25,6 +24,10 @@
     "postinstall": {
       "cache": false,
       "persistent": false
+    },
+    "@tuannc2/react-native-math": {
+      "outputs": ["lib/**", "nitrogen/**"],
+      "dependsOn": ["build"]
     }
   }
 }
