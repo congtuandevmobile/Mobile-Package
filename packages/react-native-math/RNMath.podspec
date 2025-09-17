@@ -3,7 +3,7 @@ require "json"
 package = JSON.parse(File.read(File.join(__dir__, "package.json")))
 
 Pod::Spec.new do |s|
-  s.name         = "Math"
+  s.name         = "RNMath"
   s.version      = package["version"]
   s.summary      = package["description"]
   s.homepage     = package["homepage"]
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.dependency 'React-jsi'
   s.dependency 'React-callinvoker'
 
-  load 'nitrogen/generated/ios/Math+autolinking.rb'
+  load 'nitrogen/generated/ios/RNMath+autolinking.rb'
   add_nitrogen_files(s)
 
   install_modules_dependencies(s)

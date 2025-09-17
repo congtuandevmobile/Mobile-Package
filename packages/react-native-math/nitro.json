@@ -8,10 +8,11 @@
     "androidCxxLibName": "RNMath"
   },
   "autolinking": {
-    "Math": {
+    "RNMath": {
       "swift": "HybridRNMath",
-      "kotlin": "HybridRNMsal"
+      "kotlin": "HybridRNMath"
     }
   },
-  "ignorePaths": ["node_modules"]
+  "ignorePaths": ["n**/node_modules"],
+  "gitAttributesGeneratedFlag": true
 }
