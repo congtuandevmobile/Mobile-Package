@@ -16,7 +16,7 @@ class RNMathPackage : TurboReactPackage() {
 
     companion object {
         init {
-            System.loadLibrary("rnmath")
+            System.loadLibrary("RNMath")
         }
     }
 }

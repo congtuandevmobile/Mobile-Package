@@ -1,6 +1,6 @@
 buildscript {
   ext.getExtOrDefault = {name ->
-    return rootProject.ext.has(name) ? rootProject.ext.get(name) : project.properties['Math_' + name]
+    return rootProject.ext.has(name) ? rootProject.ext.get(name) : project.properties['RNMath_' + name]
   }
 
   repositories {
@@ -22,16 +22,16 @@ def reactNativeArchitectures() {
 
 apply plugin: "com.android.library"
 apply plugin: "kotlin-android"
-apply from: '../nitrogen/generated/android/math+autolinking.gradle'
+apply from: '../nitrogen/generated/android/RNMath+autolinking.gradle'
 
 apply plugin: "com.facebook.react"
 
 def getExtOrIntegerDefault(name) {
-  return rootProject.ext.has(name) ? rootProject.ext.get(name) : (project.properties["Math_" + name]).toInteger()
+  return rootProject.ext.has(name) ? rootProject.ext.get(name) : (project.properties["RNMath_" + name]).toInteger()
 }
 
 android {
-  namespace "com.margelo.nitro.math"
+  namespace "com.margelo.nitro.rnmath"
 
   compileSdkVersion getExtOrIntegerDefault("compileSdkVersion")
 

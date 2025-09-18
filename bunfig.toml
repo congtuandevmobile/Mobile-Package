@@ -1,18 +1,8 @@
 
 [install]
-hoist = [
-  "@react-native/*",
-  "@react-native-community/*", 
-  "react-native",
-  "react",
-  "metro*",
-  "semver"
-]
-
-nohoist = [
-  "**/react-native/node_modules/**",
-  "**/react-native-*/node_modules/**"
-]
+auto = "auto"
 
 [install.cache]
-# Cache dependencies
+dir = "~/.bun/install/cache"
+disable = false
+disableManifest = false
