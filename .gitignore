@@ -154,4 +154,6 @@ yarn-error.log*
 tsconfig.tsbuildinfo
 nitrogen
 
+~/.bun/install/cache
+
 
